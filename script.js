@@ -49,3 +49,14 @@ document.querySelector('.check').addEventListener('click', function () {
     }
   }
 });
+
+document.querySelector('.again').addEventListener('click', function () {
+  if ((document.querySelector('.message').textContent = 'Correct number!')) {
+    // document.querySelector('body').style.backgroundColor = '#222';
+    // document.querySelector('.message').textContent =
+    //   'Check your lucky number!';
+    // document.querySelector('.score').textContent = 20;
+    // document.querySelector('.number').textContent = '?';
+    location.reload();
+  }
+});
